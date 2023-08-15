@@ -5,28 +5,6 @@ from requests import *
 from bs4 import BeautifulSoup
 from bs4 import BeautifulSoup as bs
 import random,os,time
-######import rich#######
-from rich.table import Table as me
-from rich.console import Console as sol
-from rich.align import Align
-from rich import print as prints
-from rich.panel import Panel
-from rich.progress import Progress
-from rich.progress import BarColumn
-from rich.progress import TextColumn
-from rich.progress import SpinnerColumn
-from rich.progress import TimeElapsedColumn
-from rich.tree import Tree
-from rich import print as kui
-from rich.console import Group as gp
-from rich.panel import Panel as nel
-from rich import print as cetak
-from time import sleep as jeda
-from rich.markdown import Markdown as mark
-from rich.columns import Columns as col
-from rich.console import Console
-console = Console()
-RED_MAGIC = '\x03\xf3\r\nd\x83\x8e^'
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH
 H = '\x1b[1;92m' # HIJAU
