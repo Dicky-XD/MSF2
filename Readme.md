@@ -17,7 +17,7 @@ $ pip install stdiomask
 $ pip install struct
 $ git clone https://github.com/Dicky-XD/MSF2
 ```
-### ⇨  Menjalankan Script
+### ⇨  Run Script
 ```
 $ cd MSF2
 $ git pull
