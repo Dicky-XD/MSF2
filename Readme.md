@@ -1,4 +1,4 @@
-### WELCOME TO MSF2###
+# WELCOME TO MSF2
 ### ⇨  Install Script Di Termux
 ```
 $ apt update
