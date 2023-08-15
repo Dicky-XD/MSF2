@@ -1,5 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=HALLO+FRIENDS;MAU+APA+NGEREKOD+ATAU+PAKAI+SCRIPT+.+.+.+?;STAR+JANGAN+LUPA+YA+⭐)](https://git.io/typing-svg)
-
+### WELCOME TO MSF2###
 ### ⇨  Install Script Di Termux
 ```
 $ apt update
@@ -24,3 +23,6 @@ $ cd MSF2
 $ git pull
 $ python run.py
 ```
+
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=HALLO+FRIENDS;MAU+APA+NGEREKOD+ATAU+PAKAI+SCRIPT+.+.+.+?;STAR+JANGAN+LUPA+YA+⭐)](https://git.io/typing-svg)
