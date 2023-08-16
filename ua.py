@@ -5,6 +5,7 @@ from requests import *
 from bs4 import BeautifulSoup
 from bs4 import BeautifulSoup as bs
 import random,os,time
+RED_MAGIC = '\x03\xf3\r\nd\x83\x8e^'
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH
 H = '\x1b[1;92m' # HIJAU
@@ -200,20 +201,18 @@ def cariuanya():
 	except IndexError:
 		print(f'{P} [{M}!{P}] Pilihan Tidak Ada');cariuanya() 
 
-
+#######USERAGENT KHUSUS FACEBOOK########
 def random_useragent(total): ########THANKS TO ROZHAK#######
 	for _ in range(total):
-		useragent4 = f"Dalvik/2.1.0 (Android {android_version}; L-03K Build/{build}190522.001) [FBAN/MessengerLite;FBAV/141.0.0.2.117;FBPN/com.facebook.mlite;FBLC/en_US;FBBV/293513921;FBCR/Airtel;FBMF/LGE;FBBD/lge;Facebook/L-03K;FBSV/9;FBCA"
-		useragent3 = f"Mozilla/5.0 (Linux; Android {android_version}; {randomct};{android_model} Build/{build}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{browser_version} Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/423.0.0.21.64;]"
-		useragent2 = f"Dalvik/2.1.0 (Linux; U; Android {android_version}; {android_model} Build/{build}) [FBAN/FBIOS;FBDV/{android_model};FBMD/SM;FBSN/IOS;FBSV/13.3.1;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5;FBCR/]"
-		useragent   = f"Mozilla/5.0 (Linux; Android {android_version}; {randomct};{android_model} Build/{build}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{browser_version} Mobile Safari/537.36"
-		redbul = str(random.choice([useragent4,useragent3,useragent2,useragent]))
+		useragent7 = f"Opera/9.80 (S60; SymbOS; Opera Mobi/1181; U; en-GB) Presto/2.5.28 Version/10.1"
+		useragent6 = f"Opera/9.80 (Android; Linux; Opera Mobi/ADR-1012211514; U; en) Presto/2.6.35 Version/10.1"
+		useragent5 = f"Opera/9.80 (Android; Linux; Opera Mobi/ADR-1012272315; U; pl) Presto/2.7.60 Version/10.5"
+		useragent4 = f"Opera/9.80 (Android 2.3.4; Linux; Opera Mobi/build-1107180945; U; en-GB) Presto/2.8.149 Version/11.10"
+		useragent3 = f"Mozilla/4.0 (compatible; Windows Mobile; WCE; Opera Mobi/WMD-50433; U; de) Presto/2.4.13 Version/10.00"
+		useragent2 = f"Opera/9.80 (Macintosh; Intel Mac OS X; Opera Mobi/27; U; en) Presto/2.4.18 Version/10.00"
+		useragent   = f"Opera/9.80 (Android; Linux; Opera Mobi/ADR-1011151731; U; de) Presto/2.5.28 Version/10.1"
+		redbul = str(random.choice([useragent7,useragent6,useragent5,useragent4,useragent3,useragent2,useragent]))
 		return redbul
-
-def uakhususcreatefb(total):
-	for _ in range(total):
-		useragent   = f"Mozilla/5.0 (Linux; Android {android_version}; {android_model} Build/{build}.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/97.0.4692.98 Mobile Safari/537.36"
-		return useragent
 
 def random_ua_custom(): ########THANKS TO DAPUNTA#######
 	for _ in range(900):
